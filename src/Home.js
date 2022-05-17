@@ -86,6 +86,7 @@ function Home() {
           rows={10}
           onChange={onPromptChange}
           value={prompt}
+          placeholder="E.g. Write a review for a restaurant"
         />
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
